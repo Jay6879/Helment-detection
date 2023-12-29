@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Driver', 'WithHelmet', 'WithoutHelmet']
+
+roboflow:
+  workspace: helmet-detection-fjs0a
+  project: helmet-fix
+  version: 25
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/helmet-detection-fjs0a/helmet-fix/dataset/25
